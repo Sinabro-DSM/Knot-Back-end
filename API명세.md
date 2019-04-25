@@ -23,7 +23,7 @@ invitedWSLog
 
 
 ## CURRENTWS
-
+----
 - WSName
 
 - WSImage
@@ -61,11 +61,52 @@ invitedWSLog
 
                 - block_id
                 - url
-## Members
 
+- pageEdit
+
+    - pageList
+        - page_id
+
+        - block_id
+
+        - title
+
+        - emogi
+
+        - upPage
+- blockEdit
+    - MD
+        - content
+                
+        - block_id
+
+    - TODO
+        - content
+
+        - isChecked
+
+    - LINK
+        - content
+
+        - block_id
+        - url
+## Members
+------
 - memberList
 
-    - 
+    - userImg
+    - userName
+    
+    - email
+    - isCaptain
+
+## invite
+----
+
+- WSInviteList
+- email
+- select
+
 
 # DefaultPage
 
