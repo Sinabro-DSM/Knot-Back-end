@@ -19,7 +19,6 @@
 
     - WSImg
 
-    - WS_id
 
 - MyInvitedWSList
 
@@ -136,7 +135,9 @@
     - MemberList
 
 - passCaptain
+
     - MemberList
+    
 ## editWS
 
 - WSImg
@@ -145,12 +146,8 @@
 
 - invitedWSLog
 
-    - check
+    - WSName
 
-    - selectWSName
 - createWS
 
-    - WSImg
-
-    - WSName
     - overlap
