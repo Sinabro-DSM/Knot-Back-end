@@ -12,6 +12,16 @@
 
 - includedWS
 
+# Main
+
+- WSList
+    - WSName
+
+    - WSImg
+    - WS_id
+invitedWSLog
+
+
 ## CURRENTWS
 
 - WSName
@@ -24,45 +34,49 @@
 
 - userImage
 
-- pageTitle
+- pageList
+    - pageTitle
+    - emoji
+    - page_id
+    - upPage
 
-- pageIcon
+    - firstPage
+        - pageTitle
+        - emoji
 
-- firstPage
+        - page_id
+        - block_id
+            - MD
+                - content
+                
+                - block_id
 
+            - TODO
+                - content
 
-### PAGE
+                - isChecked
 
-- page_id
+            - LINK
+                - content
 
-- block_id
+                - block_id
+                - url
+## Members
 
-- title
+- memberList
 
-- emogi
+    - 
 
-- upPage
+# DefaultPage
 
-### BLOCK
+- invitedWSLog
 
-- MD
+    - check
 
-    - content
+    - selectWSName
+- createWS
 
-    - block_id
+    - WSImg
 
-- TODO
-
-    - content
-
-    - isChecked
-
-    - block_id
-
-- LINK
-
-    - block_id
-
-    - url
-
-    - content
+    - WSName
+    - overlap
