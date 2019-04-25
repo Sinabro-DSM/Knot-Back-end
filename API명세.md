@@ -18,12 +18,14 @@
     - WSName
 
     - WSImg
+
     - WS_id
-invitedWSLog
+
+- MyInvitedWSList
 
 
 ## CURRENTWS
-----
+
 - WSName
 
 - WSImage
@@ -35,16 +37,23 @@ invitedWSLog
 - userImage
 
 - pageList
+
     - pageTitle
+
     - emoji
+
     - page_id
+
     - upPage
 
     - firstPage
+
         - pageTitle
+
         - emoji
 
         - page_id
+
         - block_id
             - MD
                 - content
@@ -60,11 +69,13 @@ invitedWSLog
                 - content
 
                 - block_id
+
                 - url
 
 - pageEdit
 
     - pageList
+
         - page_id
 
         - block_id
@@ -75,6 +86,7 @@ invitedWSLog
 
         - upPage
 - blockEdit
+
     - MD
         - content
                 
@@ -89,24 +101,45 @@ invitedWSLog
         - content
 
         - block_id
+
         - url
 ## Members
-------
+
 - memberList
 
     - userImg
+
     - userName
     
     - email
+
     - isCaptain
 
-## invite
-----
+## Invite
+
 
 - WSInviteList
+
 - email
+
 - select
 
+## Setting
+
+- Account
+    - userImg
+
+    - displayName
+## editMember
+
+- delete
+    - MemberList
+
+- passCaptain
+    - MemberList
+## editWS
+
+- WSImg
 
 # DefaultPage
 
