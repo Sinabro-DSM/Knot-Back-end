@@ -4,7 +4,7 @@
 
     - WSName
 
-    - WSImage
+    - WSImg
 
 - invitedWSLog
 
@@ -27,13 +27,13 @@
 
 - WSName
 
-- WSImage
+- WSImg
 
 - dispalyName
 
 - isCaptain
 
-- userImage
+- userImg
 
 - pageList
 
@@ -75,9 +75,9 @@
 
     - pageList
 
-        - page_id
+        - pageId
 
-        - block_id
+        - blockId
 
         - title
 
@@ -89,7 +89,7 @@
     - MD
         - content
                 
-        - block_id
+        - blockId
 
     - TODO
         - content
@@ -99,7 +99,7 @@
     - LINK
         - content
 
-        - block_id
+        - blockId
 
         - url
 ## Members
