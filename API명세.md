@@ -41,7 +41,7 @@
 
     - emoji
 
-    - page_id
+    - pageId
 
     - upPage
 
@@ -51,13 +51,13 @@
 
         - emoji
 
-        - page_id
+        - pageId
 
-        - block_id
+        - blockId
             - MD
                 - content
                 
-                - block_id
+                - blockId
 
             - TODO
                 - content
@@ -67,7 +67,7 @@
             - LINK
                 - content
 
-                - block_id
+                - blockId
 
                 - url
 
@@ -86,17 +86,17 @@
         - upPage
 - blockEdit
 
-    - MD
+    - md
         - content
                 
         - blockId
 
-    - TODO
+    - todo
         - content
 
         - isChecked
 
-    - LINK
+    - link
         - content
 
         - blockId
@@ -132,11 +132,11 @@
 ## editMember
 
 - delete
-    - MemberList
+    - memberList
 
 - passCaptain
 
-    - MemberList
+    - memberList
     
 ## editWS
 
